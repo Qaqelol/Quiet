@@ -1,7 +1,4 @@
 {
     "nom":{"code":"Prefix","desc":"descritpion"},
-    "anim":{"code":"marois_christophe_524_gr1_","desc":"Cours d'animation"},
-    "perso":{"code":"ChristopheMarois_","desc":"Projet personnel"},
-    "vfx":{"code":"maroisChristophe_543_gr1_","desc":"Cours de VFX"},
-    "unreal":{"code":"maroisChristophe_504_gr2_","desc":"Environnement Numerique"}
+    "perso":{"code":"projet_perso_","desc":"Pour les projets personnel"},
 }
