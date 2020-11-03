@@ -1,5 +1,5 @@
 {
     "internet":{"code":"-vcodec libx264 -pix_fmt yuv420p","extension":".mp4","desc":"Video mp4 qui fonctionne avec les sites en general"},
     "facebook":{"code":"-vcodec libx264 -fs 26214400 -pix_fmt yuv420p","extension":".mp4","desc":"Video mp4 qui fonctionne avec facebook et qui se coupe a la limite dupload"},
-    "gif":{"code":"-loop $$","extension":".gif","desc":"Gif - 1/2 taille de la video","custom":"\nEst-ce que le gif loop ? -1=une seule fois 0=infinie 1 ou plus = nombre exact "}
+    "gif":{"code":"-loop $$","extension":".gif","desc":"Gif standard avec animation","custom":"\nNombre de loop [0=infinie] [-1=une fois seulement] [1-100= valeur exact]\n"}
 }

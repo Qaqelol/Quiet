@@ -1,4 +1,10 @@
 {
-    "nom":{"code":"Prefix","desc":"descritpion"},
-    "perso":{"code":"projet_perso_","desc":"Pour les projets personnel"}
+    "nom": {
+        "code": "Prefix",
+        "desc": "descritpion"
+    },
+    "perso": {
+        "code": "projet_perso_",
+        "desc": "Pour les projets personnel"
+    }
 }

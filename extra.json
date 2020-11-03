@@ -1,15 +1,15 @@
 {
-    "size":{"code":"scale=iw/$$:ih/$$","desc":"Change la taille de la video","custom":"Taille x nombre (0.5 = moitier plus petit)\n"},
+    "size":{"code":"scale=iw/$$:ih/$$","desc":"Change la taille de la video","custom":"Taille / nombre (0.5 = moitier plus petit)\n"},
     "speed":{ "code":"setpts=$$*PTS","desc":"Change la vitesse de la video","custom":"Vitesse x nombre (0.5 = demi vitesse)\n"},
-    "fadein":{"code":"fade=type=in:start_time=1:duration=$$","desc":"Intro en fondu noir (fade in)", "custom":"Temps de fade in en frames ?\n"},
-    "fadeout":{"code":"fade=type=out:start_time=$$:duration=3","desc":"Fin en fondu noir (fade out), de 10 frames", "custom":"Debut du fade out ?\n"},
     "vignette":{"code":"vignette","desc":"ajoute une vignette noir"},
-    "grid":{"code":"drawgrid=w=iw/3:h=ih/3:t=2:c=$$@0.5","custom":"Color de la grid\n","desc":"ajoute une regle des tiers, couleur parametrable"},
-    "reverse":{"code":"reverse","desc":"ATTENTION CRASH FACILE, retourne la video dans le temps"},
-    "rgbshift":{"code":"rgbashift=gv=$$","custom":"Distance de decalage (-10 a 10)","desc":"Decale les couleurs verticalement, comme un effet de glitch"},
+    "grid":{"code":"drawgrid=w=iw/3:h=ih/3:t=2:c=$$@0.5","custom":"Couleur de la grid ? [white,black] \n","desc":"ajoute une regle des tiers"},
+    "fadein":{"code":"fade=type=in:start_time=1:duration=$$","desc":"Intro en fondu noir (fade in)", "custom":"Temps de fade in en frames ?\n"},
+    "fadeout":{"code":"fade=type=out:start_time=$$:duration=3","desc":"Fin en fondu noir (fade out), de 3 sec", "custom":"Debut du fade out (sec)?\n"},
+    "rgbshift":{"code":"rgbashift=gv=$$","custom":"Distance de decalage (-10 a 10)\n","desc":"Decale les couleurs verticalement, comme un effet de glitch"},
     "random":{"code":"random","desc":"Melange les frames aleatoirement"},
-    "denoise":{"code":"fftdnoiz","desc":"tente de retirer le noise, n'est vraiment pas parfait"},
-    "text":{"code":"drawtext=text='$$': fontcolor=white : fontsize=12 : box=1: boxcolor=black@0.5: boxborderw=5","custom":"Texte \n","desc":"Ajoute un mini texte blanc par dessus la video"},
-    "ptext":{"code":"drawtext=text='$$': fontcolor=white : fontsize=20 : box=1: boxcolor=black@0.5: boxborderw=5","custom":"Texte \n","desc":"Ajoute un petit texte blanc par dessus la video"},
-    "Gtext":{"code":"drawtext=text='$$': fontcolor=white : fontsize=34 : box=1: boxcolor=black@0.5: boxborderw=5 ","custom":"Texte \n","desc":"Ajoute un gros texte blanc par dessus la video"}
+    "reverse":{"code":"reverse","desc":"[Instable], retourne la video dans le temps"},
+    "denoise":{"code":"fftdnoiz","desc":"[Instable] tente de retirer le noise"},
+    "text":{"code":"drawtext=text='$$': fontcolor=white : fontsize=12 : box=1: boxcolor=black@0.5: boxborderw=5","custom":"Mini Texte \n","desc":"Ajoute un mini texte blanc par dessus la video"},
+    "ptext":{"code":"drawtext=text='$$': fontcolor=white : fontsize=20 : box=1: boxcolor=black@0.5: boxborderw=5","custom":"Petit Texte \n","desc":"Ajoute un petit texte blanc par dessus la video"},
+    "Gtext":{"code":"drawtext=text='$$': fontcolor=white : fontsize=34 : box=1: boxcolor=black@0.5: boxborderw=5 ","custom":"Gros Texte \n","desc":"Ajoute un gros texte blanc par dessus la video"}
 }
