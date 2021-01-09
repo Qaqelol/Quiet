@@ -32,8 +32,7 @@ Pour ce faire, il faut double clicker sur Quiet, puis choisir l'option "nom".
 ###### Finalement, apres avoir ajouter des raccourcis de nomenclature, Quiet proposera ceux-ci lors de la prochaine utilisation:
 ![Info Nom2](https://raw.githubusercontent.com/Qaqelol/Quiet/main/Media/QuietNom3.PNG)
 
-# QUIET EST EN VERSION ALPHA
-## ALPHA = Avant Beta, avec bugs, bien qu'aucun ne soit dangereux pour vos fichiers ou votre ordinateur
-Ces bugs seront corrigés si l'on me les report.
-Tout commentaires ou idées sont très appréciés.
-
+# Quiet Alpha 1.1.0
+- ajout du support de charactere speciaux dans les paths
+- Supporte désormais aussi les fichiers nommées uniquement avec des chiffre (ex 001.png)
+- Mise a jour visuele, ffmpeg silencieux.
